@@ -19,19 +19,26 @@ class _HomePageState extends State<HomePage> {
   List<Widget> myTabs = [
     //donut tab
     const MyTab(
-      iconPath: 'lib/icons/donut.png'),
+      iconPath: 'lib/icons/donut.png'
+     , label: "Donut",),
+      
     //burger tab
     const MyTab(
-      iconPath: 'lib/icons/burger.png')
+      iconPath: 'lib/icons/burger.png'
+   ,   label: "Burger",)
+
     //smoothie tab
     ,const MyTab(
-      iconPath: 'lib/icons/smoothie.png')
+      iconPath: 'lib/icons/smoothie.png',
+      label: "Smoothie",)
     //pancake tab
     ,const MyTab(
-      iconPath: 'lib/icons/pancakes.png')
+      iconPath: 'lib/icons/pancakes.png',
+      label: "Pancake",)
     //pizza tab
     ,const MyTab(
-      iconPath: 'lib/icons/pizza.png')
+      iconPath: 'lib/icons/pizza.png',
+      label: "Pizza",)
 
     ];
   @override
