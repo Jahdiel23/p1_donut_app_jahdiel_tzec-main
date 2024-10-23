@@ -11,7 +11,7 @@ class DonutTitle extends StatelessWidget {
       required this.donutFlavor,
       required this.donutPrice,
       this.donutColor,
-      required this.imageName});
+      required this.imageName, required Null Function() onAddToCart});
 
   @override
   Widget build(BuildContext context) {
